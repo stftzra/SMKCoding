@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hanado</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/akar-icons-fonts"></script>
+    <style>
+        .card {
+            @apply p-3
+        }
+    </style>
+</head>
+
+<body class="bg-[#F9D9AA]">
+    <main class="container mx-auto px-20">
+        <section class="flex justify-between items-center h-screen">
+            <div class="absolute top-0 right-0 w-96">
+                <img src="aset/bg-hero.png" alt="">
+            </div>
+            </div>
+            <div class="w-96">
+                <h2 class="text-4xl font-semibold text-[#2F2105] mb-5 leading-snug"> enjoy your <span class="text-[#FF902A]">cofee</span> before your activity</h2>
+                <p class="text-[#2F2105] mb-5">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, quo officiis. A tenetur ut
+                    perspiciatis magni.
+                </p>
+
+                <div class="flex items-center gap-4">
+                    <button class="bg-[#2F2125] text-white px-8 py-2 rounded-full flex items-center gap-1.5 ">
+                        <span class="flex-1"> Order Now</span>
+                            <span class="w-5 h-5 bg-[#FF902A] rounded-full grid place-items-center text-sm">
+                                <i class="ai-cart"></i>
+                            </span>
+                    </button>
+                    <button class="px-8 py-2 hover:text-[#FF902A] duration-300 transition-all"> More Menu</button>
+                </div>
+            </div>
+            <div class="relative">
+                <div class="w-96 bg-[#2F2105] rounded-full h-96 flex justify-center items-center">
+                    <img src="aset/coffe-glass.png" alt="coffe" class="w-72 h-auto">
+                </div>
+                <div class="bg-white/50 w-max p-2 rounded-full absolute top-5 -left-8 backdrop-blur-sm duration-300 hover:-translate-y-5">
+                    <p class="bg-white px-10 py-2 w-max rounded-full font-medium">Cappucino</p>
+                </div>
+                <div class="bg-white/50 w-max p-1.5 rounded-full absolute bottom-4 -left-8 backdrop-blur-sm">
+                    <p class="bg-white px-10 py-2 w-max rounded-full text-xl font-medium">18K</p>
+                </div>
+                <div class="bg-white/50 w-max p-1.5 rounded-full absolute top-24 right-0 backdrop-blur-sm">
+                    <p class="bg-white  px-10 py-2 w-max rounded-full font-medium">4.8<i class="ai-star text-yellow-500"></i></p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
